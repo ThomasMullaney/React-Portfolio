@@ -192,7 +192,7 @@ const Skills = () => {
                                                         rounded
                                                         className="image-style m-1"
                                                     ></Image>{" "}
-                                                    {skill.versionControl[0].skillName}
+                                                    {skills.versionControl[0].skillName}
                                                 </a>
                                          </span>
                                  </Card.Text>
