@@ -27,7 +27,7 @@ import L_Python from "../../assets/images/skills/python.svg";
 // database
 import L_MsSql from "../../assets/images/skills/mssql.svg";
 import L_Mysql from "../../assets/images/skills/mysql.svg";
-import L_Sqlite from "../../assets/images/skills/sqlite.svg";
+// import L_Sqlite from "../../assets/images/skills/sqlite.svg";
 import L_Postgresql from "../../assets/images/skills/postgresql.svg";
 import L_MongoDB from "../../assets/images/skills/mongoDB.svg";
 

@@ -9,12 +9,12 @@ import GoogleBooks from "../../assets/images/projects/GoogleBooksCapture.PNG";
 import Notes from "../../assets/images/projects/notesCapture.PNG";
 import RandomPassword from "../../assets/images/projects/RandomPasswordCapture.PNG";
 import TeamGenerator from "../../assets/images/projects/TeamGeneratorCapture.PNG";
-import WorkdayScheduler from "../../assets/images/projects/WorkdaySchedulerCapture.PNG";
+import WorkdayScheduler from "../../assets/images/projects/WorkdayScheduleCapture.PNG";
 import WorkoutTracker from "../../assets/images/projects/WorkoutCapture.PNG";
 
 // skills
 import L_Heroku from "../../assets/images/skills/heroku.svg";
-import L_MongoDB from "../../assets/images/skills/mognoDB.svg";
+import L_MongoDB from "../../assets/images/skills/mongoDB.svg";
 import L_React from "../../assets/images/skills/react.svg";
 import L_NodeJs from "../../assets/images/skills/nodejs.svg";
 import L_Express from "../../assets/images/skills/express.svg";
@@ -26,7 +26,7 @@ import L_Html5 from "../../assets/images/skills/html-5.svg";
 import L_Css3 from "../../assets/images/skills/css3.svg";
 import L_MySql from "../../assets/images/skills/mysql.svg";
 import L_Materialize from "../../assets/images/skills/material-ui-1.svg";
-import "./projects-timeline.style.css";
+import "./timeline.style.css";
 
 const TimeLine = () => {
     return (
