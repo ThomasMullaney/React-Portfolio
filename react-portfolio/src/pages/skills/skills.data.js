@@ -166,12 +166,12 @@ export const skills = {
         imgSrc: L_Mysql,
         skillName: "My-SQL",
       },
-      {
-        link: "https://www.sqlite.org/",
-        imgAltText: "SQLite",
-        imgSrc: L_Sqlite,
-        skillName: "SQLite",
-      },
+      // {
+      //   link: "https://www.sqlite.org/",
+      //   imgAltText: "SQLite",
+      //   imgSrc: L_Sqlite,
+      //   skillName: "SQLite",
+      // },
       {
         link: "https://www.postgresql.org/",
         imgAltText: "PostgreSQL",

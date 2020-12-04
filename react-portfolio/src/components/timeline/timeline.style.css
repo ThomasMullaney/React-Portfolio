@@ -4,12 +4,12 @@
     -webkit-text-decoration: none;
     text-decoration: none;
     font-size: 14px;
-    background-color: bisque;
+    background-color: rgb(124, 214, 72);
     border: none;
     border-radius: 4px;
 
     padding: 10px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .list-styles {
@@ -19,3 +19,9 @@
 .image-style1 {
     width: 3em;
 }
+
+.font-details {
+    font-family: "East Sea Dokdo", cursive;
+    color: black;
+}
+

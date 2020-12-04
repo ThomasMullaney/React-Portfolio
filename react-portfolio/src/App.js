@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 
 // components
 import MyNavbar from "./components/navbar/navbar.component";
-import MyFooter from "./components/footer/footer.component";
 import MyCarousel from "./components/carousel/carousel.component";
 import TitleMessage from "./components/title-message/message.component";
 import TimeLine from "./components/timeline/timeline.component";
@@ -18,7 +17,7 @@ import "./App.css";
 import FooterPanel from "./components/footer/footer.component";
 
 const App = () => {
-  return (
+  return(
     <div className="App" style={{ position: "relative" }}>
       <MyCarousel />
       <TitleMessage />
@@ -65,7 +64,7 @@ const App = () => {
       <Container className="container-box rounded">
                 <Fade duration={500}>
                   <hr />
-                  <ContactForm />
+                  <Contact />
                 </Fade>
               </Container>
       

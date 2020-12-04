@@ -1,14 +1,15 @@
 import React from "react";
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
-
-
+import { Timeline, Events, UrlButton, ImageEvent, createTheme, themes } from "@merc/react-timeline";
+import Accordion from "react-bootstrap/Accordion"
+import Card from "react-bootstrap/Card"
+import Button from "react-bootstrap/Button";
 // projects
 import BudgetTracker from "../../assets/images/projects/BudgetCapture.PNG";
 import EmployeeDirectory from "../../assets/images/projects/EmployeeDirectoryCapture.PNG";
 import GoogleBooks from "../../assets/images/projects/GoogleBooksCapture.PNG";
 import Notes from "../../assets/images/projects/notesCapture.PNG";
-import RandomPassword from "../../assets/images/projects/RandomPasswordCapture.PNG";
-import TeamGenerator from "../../assets/images/projects/TeamGeneratorCapture.PNG";
+import RandomPassword from "../../assets/images/projects/RandomPasswordCapture.png";
+import TeamGenerator from "../../assets/images/projects/TeamGeneratorCapture.png";
 import WorkdayScheduler from "../../assets/images/projects/WorkdayScheduleCapture.PNG";
 import WorkoutTracker from "../../assets/images/projects/WorkoutCapture.PNG";
 
@@ -18,21 +19,41 @@ import L_MongoDB from "../../assets/images/skills/mongoDB.svg";
 import L_React from "../../assets/images/skills/react.svg";
 import L_NodeJs from "../../assets/images/skills/nodejs.svg";
 import L_Express from "../../assets/images/skills/express.svg";
-import L_AuthO from "../../assets/images/skills/auth0.svg";
+import L_Github from "../../assets/images/skills/github.svg";
+import L_Bootstrap from "../../assets/images/skills/bootstrap-4.svg";
+// import L_AuthO from "../../assets/images/skills/auth0.svg";
 import L_GithubPages from "../../assets/images/skills/github.svg";
 import Image from "react-bootstrap/Image";
 import L_Javascript from "../../assets/images/skills/javascript.svg";
 import L_Html5 from "../../assets/images/skills/html-5.svg";
 import L_Css3 from "../../assets/images/skills/css3.svg";
 import L_MySql from "../../assets/images/skills/mysql.svg";
-import L_Materialize from "../../assets/images/skills/material-ui-1.svg";
+// import L_Materialize from "../../assets/images/skills/material-ui-1.svg";
 import "./timeline.style.css";
+
+const customTheme = createTheme(themes.default, {
+    card: {
+        backgroundColor: '#efefef',
+    },
+    date: {
+        backgroundColor: 'green',
+    },
+    marker: {
+        borderColor: "green",
+    },
+    timelineTrack: {
+        backgroundColor: 'black'
+    },
+    urlButton: {
+        backgroundColor: 'rgb(124, 214, 72)'
+    }
+});
 
 const TimeLine = () => {
     return (
         <div id="projects">
-            <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
-            <Timeline>
+            <h1 className="pt-3 text-center font-details pb-3">Projects</h1>
+            <Timeline theme={customTheme}>
                 <Events>
                     {/* Google Books */}
                     <ImageEvent
@@ -127,12 +148,12 @@ const TimeLine = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton
+                                <UrlButton 
                                     href="https://google-books-reading-list-app.herokuapp.com/"
                                     target="_blank"
                                 > See Live
                                 </UrlButton>
-                                <UrlButton
+                                <UrlButton 
                                     href="https://github.com/ThomasMullaney/Google-books-app"
                                     target='_blank'
                                 > Source Code
@@ -912,4 +933,4 @@ const TimeLine = () => {
     );
 };
 
-export default Timeline;
+export default TimeLine;

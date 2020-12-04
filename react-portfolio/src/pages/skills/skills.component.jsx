@@ -12,7 +12,7 @@ import "./skills.style.css";
 const Skills = () => {
     return (
         <div className="pt-3 pb-3" id="skills">
-             <h1 className="text-center font-details-b pb-4">Tech Skills</h1>
+             <h1 className="text-center font-details pb-4">Tech Skills</h1>
              <CardDeck>
                  <Row className="d-flex justify-content-around">
                      {/* frontend */}

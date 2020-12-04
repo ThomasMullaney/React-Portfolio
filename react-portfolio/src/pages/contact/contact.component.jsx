@@ -18,10 +18,32 @@ const ContactForm = () => {
                                 target="_blank"
                                 rel="noopener no referrer"
                             >
-                                <Button variant ="outline-dark" title="Other projects">
-                                        <i className="fav fa-github-square"></i> Github
+                                <Button variant ="outline-dark" title="tloring.mullaney@gmail.com">
+                                        <i className="fas fa-envelope-square"></i> Email: tloring.mullaney@gmail.com
                                 </Button>
                             </a>
+                        </div>
+                        <div className="m-2">
+                            <a 
+                            href="https://www.linkedin.com/in/thomas-mullaney-809a6bb0/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                                <Button variant="outline-dark" title="My Linkedin">
+                                    <i className="fab fa-linkedin"></i> LinkedIn
+                                </Button>
+                            </a>
+                        </div>
+                        <div className="m-2">
+                            <a 
+                                href="https://github.com/ThomasMullaney"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                    <Button variant="outline-dark" title="My Linkedin">
+                                        <i className="fab fa-github-square"></i> GitHub
+                                    </Button>
+                                </a>
                         </div>
                     </Col>
                 </Row>

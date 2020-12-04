@@ -1,8 +1,9 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
-
+import "./message.style.css";
 const MyTitleMessage = styled.h1`
+    font-family: garamond;
     position: absolute;
     width: 100%;
     top: 22rem;
@@ -21,18 +22,19 @@ const MyTitleMessage = styled.h1`
             font-size: 50px
         }
         .sub {
+            
             font-size: 27px;
             letter-spacing: 2px;
         }
     }
 `;
 
-const TitleMessage = () => {
+const TitleMessage = () => (
     <MyTitleMessage>
-        <div className="titelMessage">
+        <div className="titleMessage">
             <div className="heading">
                 <div className="main text-center mb-3">
-                    Howdy, hi, how you doing! I'm
+                   <span> Howdy, hi, how you doing! I'm</span>
                     <br />
                     <span>
                         <strong>Thomas Mullaney</strong>
@@ -53,6 +55,6 @@ const TitleMessage = () => {
             </div>
         </div>
     </MyTitleMessage>
-};
+);
 
 export default TitleMessage;

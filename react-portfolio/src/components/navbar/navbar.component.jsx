@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-
+import Image from "react-bootstrap/Image";
 import Logo from "./../../assets/icons/TLMlogo.png";
 import "./navbar.style.css";
 
@@ -9,17 +9,16 @@ const MyNavbar = () => {
     return (
         <>
         <Navbar 
-            style={{ backgroundColor: "black" }}
             collapseOnSelect
             fixed="top"
             expand="md"
             variant="white"
-            className="animate-navbar nav-theme justify-content-between"
+            className="animate-navbar navbar-custom nav-theme justify-content-between bg-img"
         >
             <Navbar.Brand href="#home">
                 <img className="logo" src={Logo} alt="My Portfolio Logo" />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle variant="danger" aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
                     <Nav.Link href="#home">Home</Nav.Link>

@@ -12,7 +12,7 @@ function About() {
     return (
         <div id="about">
             <div className="about">
-            <h1 className="pt-3 text-center font-details pb-3">About Me </h1>
+            <h1 className="pt-3 text-center title pb-3">About Me </h1>
             <Container>
                 <Row className="pt-3 pb-5 align-items-center">
                     <Col xs={12} md={6}>
@@ -41,7 +41,7 @@ function About() {
                             <Col className="d-flex justify-content-center flex-wrap">
                                 <div>
                                     <a href="#contact">
-                                        <Button className="m-2" variant="outline-primary">
+                                        <Button className="m-2" variant="outline-success">
                                             Give me a ring!
                                         </Button>
                                     </a>
@@ -51,7 +51,7 @@ function About() {
                                         href="https://www.linkedin.com/in/thomas-mullaney-809a6bb0/"
                                         target="_blank"
                                         >
-                                            <Button className="m-2" bariant="outline-success">
+                                            <Button className="m-2" variant="outline-success">
                                                 My Linkedin
                                             </Button>
                                         </a>
@@ -61,7 +61,7 @@ function About() {
                                         href="https://github.com/ThomasMullaney"
                                         target="_blank"
                                         >
-                                            <Button className="m-2" bariant="outline-success">
+                                            <Button className="m-2" variant="outline-success">
                                                My Github
                                             </Button>
                                         </a>
