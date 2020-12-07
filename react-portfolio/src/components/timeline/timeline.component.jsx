@@ -45,7 +45,7 @@ const customTheme = createTheme(themes.default, {
         backgroundColor: 'black'
     },
     urlButton: {
-        backgroundColor: 'rgb(124, 214, 72)'
+        backgroundColor: 'rgb(19, 126, 15)'
     }
 });
 

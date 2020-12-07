@@ -1,5 +1,16 @@
 .contact-jumbotron {
-    background-image: url("../../assets/images/background/background.webp");
+    background-image: url("../../assets/images/contact/contactBanana.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+
+    font-family: "East Sea Dokdo", cursive;
+    color: black;
+}
+
+.btn {
+    background-color: rgb(19, 126, 15);
+    border: none;
+    border-radius: 4px;
+
+    color: beige;
 }

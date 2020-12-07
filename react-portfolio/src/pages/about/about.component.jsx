@@ -29,13 +29,13 @@ function About() {
                         <Row className="align-items-start p-2 my-details rounded">
                             Greetings, I'm <strong>&nbsp;Tom Mullaney!</strong>
                             <br />
-                            A Fullstack coder proficent in front-end and back-end web development
+                            A 2020 Rutgers full stack coding bootcamp graduate proficient in front-end and back-end web development.
                             <br />
                             <br />
-                            Also, I have a degree in Marketing, and experience with business operations, logistics, and customer service.
+                            I have a degree in Marketing, and experience with business operations, logistics, and customer service.
                             <br />
                             <br />
-                            I love coding because with its struggles comes great feelings of accomplishment. The versitility of Web development excites me because it combines the skilled engineering of a mechanic with the creativity of a marketer. In a way, web development continues the practice of print advertising but injected with the technology to allow the user do more than just read, while letting the advertisment read the user as well. 
+                            I love coding because of its applicable versatility. Coding takes a bit of logic, creativity, passion and a whole lot of persistence. With its difficulties and frustrations comes wonderful feelings of accomplishmen
                             <br />
                             <br />
                             <Col className="d-flex justify-content-center flex-wrap">

@@ -9,7 +9,7 @@ const ContactForm = () => {
     return (
         <div id="contact">
             <h1 className="pt-3 text-center font-details-b pb-3">Contact Me</h1>
-            <Jumbotron className="contact-jumbtron">
+            <Jumbotron className="contact-jumbotron">
                 <Row>
                     <Col className="d-flex justify-content-center flex-wrap">
                         <div className="m-2">
@@ -19,7 +19,7 @@ const ContactForm = () => {
                                 rel="noopener no referrer"
                             >
                                 <Button variant ="outline-dark" title="tloring.mullaney@gmail.com">
-                                        <i className="fas fa-envelope-square"></i> Email: tloring.mullaney@gmail.com
+                                        <i className="btn fas fa-envelope-square"></i> Email: tloring.mullaney@gmail.com
                                 </Button>
                             </a>
                         </div>
@@ -30,7 +30,7 @@ const ContactForm = () => {
                             rel="noopener noreferrer"
                             >
                                 <Button variant="outline-dark" title="My Linkedin">
-                                    <i className="fab fa-linkedin"></i> LinkedIn
+                                    <i className="btn fab fa-linkedin"></i> LinkedIn
                                 </Button>
                             </a>
                         </div>
@@ -41,7 +41,7 @@ const ContactForm = () => {
                                 rel="noopener noreferrer"
                                 >
                                     <Button variant="outline-dark" title="My Linkedin">
-                                        <i className="fab fa-github-square"></i> GitHub
+                                        <i className="btn fab fa-github-square"></i> GitHub
                                     </Button>
                                 </a>
                         </div>
