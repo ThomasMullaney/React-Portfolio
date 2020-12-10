@@ -23,13 +23,13 @@ A MERN React application hosting my portfolio of projects.</p>
   </h4>
 </div>
 
-![Screenshot of Application](assets/images/Capture.PNG)
-![Screenshot of Application](assets/images/Capture1.PNG)
-![Screenshot of Application](assets/images/Capture2.PNG)
+![Screenshot of Application](images/readme/Capture.PNG)
+![Screenshot of Application](images/readme/Capture1.PNG)
+![Screenshot of Application](images/readme/Capture2.PNG)
     
 
 ## Description:
-### A Budget tracker that allows you to add and subtract transactions. App is a PWA and can function without a connection, allowing users to post and view transactions even when traveling. Once connection is re-established viewable but pending transactions will be posted.
+### A React app acting as my personal portfolio. Features four main sections, about, skills, timeline, and contact. 
 
 ## Table of Contents:
      
@@ -41,19 +41,17 @@ A MERN React application hosting my portfolio of projects.</p>
 6. [Questions](#questions) 
 
 ## Installation: 
-### Created with mongoose, express, node, mongoDB. Clone the repo and npm install to use. 
+### Created with mongoose, express, node, and react. Clone the repo and npm install then npm start to use. 
 
 ## Usage:
-### The user can post transactions even when offline. Users can either add or subtract funds and have them populate to a table and graph. Users can also delete pending transactions made offline, or delete all transactions within MongoDB.
+### Can click buttons to link to live sites, or source code. 
 
 ## Technologies:
 <ul>
-<li>HTML, CSS, Bootstrap</li>
-<li>Javascript, jQuery</li>
-<li>MongoDB</li>
-<li>node.js, Express, Sequlize, MySQL, dotenv, Passport, Bcrypt</li>
-<li>Github, Heroku</li>
-<li>PWA, Cache</li>
+<li>HTML, CSS, React-Bootstrap</li>
+<li>Javascript </li>
+<li>node.js, Express</li>
+<li>Github Pages</li>
 </ul>
 
 ## License:
