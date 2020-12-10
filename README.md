@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+    <h4>
+    </a>
+    <a href="https://github.com/ThomasMullaney/React-Portfolio/stargazers"><img src="https://img.shields.io/github/stars/ThomasMullaney/React-Portfolio.svg?style=plasticr"/></a>
+    <a href="https://github.com/ThomasMullaney/React-Portfolio/commits/master"><img src="https://img.shields.io/github/last-commit/ThomasMullaney/React-Portfolio.svg?style=plasticr"/></a>
+        <a href="https://github.com/ThomasMullaney/React-Portfolio/commits/master"><img src="https://img.shields.io/github/commit-activity/y/ThomasMullaney/React-Portfolio.svg?style=plasticr"/></a>
+    </h4>
+</div>
 
-## Available Scripts
+<p align="center"><font size="3">
+A MERN React application hosting my portfolio of projects.</p>
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://github.com/ThomasMullaney/React-Portfolio">
+      Github Repository
+    </a>
+<span> | </span>
+<a href="https://thomasmullaney.github.io/React-Portfolio/">
+      Live Site
+    </a>
+  </h4>
+</div>
 
-In the project directory, you can run:
+![Screenshot of Application](assets/images/Capture.PNG)
+![Screenshot of Application](assets/images/Capture1.PNG)
+![Screenshot of Application](assets/images/Capture2.PNG)
+    
 
-### `npm start`
+## Description:
+### A Budget tracker that allows you to add and subtract transactions. App is a PWA and can function without a connection, allowing users to post and view transactions even when traveling. Once connection is re-established viewable but pending transactions will be posted.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents:
+     
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [Questions](#questions) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation: 
+### Created with mongoose, express, node, mongoDB. Clone the repo and npm install to use. 
 
-### `npm test`
+## Usage:
+### The user can post transactions even when offline. Users can either add or subtract funds and have them populate to a table and graph. Users can also delete pending transactions made offline, or delete all transactions within MongoDB.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies:
+<ul>
+<li>HTML, CSS, Bootstrap</li>
+<li>Javascript, jQuery</li>
+<li>MongoDB</li>
+<li>node.js, Express, Sequlize, MySQL, dotenv, Passport, Bcrypt</li>
+<li>Github, Heroku</li>
+<li>PWA, Cache</li>
+</ul>
 
-### `npm run build`
+## License:
+### [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+    
+## Contributing:
+### Tom Mullaney
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tests:
+### 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    
+## Questions:
+### github.com/ThomasMullaney
+### tloring.mullaney
