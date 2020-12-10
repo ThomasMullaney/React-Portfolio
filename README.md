@@ -23,9 +23,9 @@ A MERN React application hosting my portfolio of projects.</p>
   </h4>
 </div>
 
-![Screenshot of Application](Capture.PNG)
-![Screenshot of Application](Capture1.PNG)
-![Screenshot of Application](Capture2.PNG)
+![Screenshot of Application](src/assets/images/readme/Capture.PNG)
+![Screenshot of Application](src/assets/images/readme/Capture1.PNG)
+![Screenshot of Application](src/assets/images/readme/Capture2.PNG)
     
 
 ## Description:
