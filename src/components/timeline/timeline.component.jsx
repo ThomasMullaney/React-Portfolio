@@ -81,7 +81,7 @@ const TimeLine = () => {
                                                 <strong>Features:</strong>
                                                 <ul className="list-styles pt-1">
                                                     <li>
-                                                        Graph showing growth and decline of finances, and table listing posted transactions.
+                                                        Personalized reading list based off user activity.
                                                     </li>
                                                 </ul>
                                                 <hr />
